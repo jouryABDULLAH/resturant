@@ -5,7 +5,7 @@
 }
 
 body{
-
+    color: white;
    background-color: black; 
 }
 
@@ -39,10 +39,47 @@ nav a:hover{
 
 .ad{
     background-color: rgb(121, 32, 32);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5rem;
     height: 70vh;
-    
+    background-image: url(../images/food-banner.png.crdownload);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
 }
 
+
+.ad h1{
+    font-size: 55px;
+}
+
+.ad p {
+    width: 450px;
+}
+
+
+@media screen and (max-width: 460px) {
+       
+    .ad{
+     padding-left: 10px;
+     height: 50vh;
+    }
+ 
+    .brand{
+        display: none;
+    }
+
+ .ad h1{
+     font-size: 20px;
+ }
+ 
+ .ad p {
+    font-size: 14px;
+    width: 15rem;
+ }
+ }
 /* 
 .list a{
 
