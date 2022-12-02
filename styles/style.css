@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+   background-color: black; 
+}
+
+nav{
+    display: flex;
+    background-color: crimson;
+}
+
+nav a{
+    text-decoration: none;
+    color: white ;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.list{
+    flex-grow: 2;
+    /* text-align: center; */
+}
+
+.brand{
+    font-weight: bold;
+    border-right: 3px solid white;
+}
+
+
+.ad{
+    background-color: rgb(121, 32, 32);
+    height: 70vh;
+    
+}
+
+/* 
+.list a{
+
+    padding: 2px;
+} */
